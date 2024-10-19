@@ -1,0 +1,11 @@
+Starting normal job
+Iteration 0, L2 distance: 0.00100695, Time: 0.000510931 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 0.000391006 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 0.000386953 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 0.00136685 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 0.00136614 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 3.14965 seconds
+Bandwidth: 0.705615 GB/s
+All Steps completed.

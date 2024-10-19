@@ -1,0 +1,10 @@
+Starting MPI job
+Iteration 0, L2 distance: 0.00100695
+Iteration 1000, L2 distance: 0.000125306
+Iteration 2000, L2 distance: 3.59964e-05
+Iteration 3000, L2 distance: 1.07276e-05
+Iteration 4000, L2 distance: 3.19955e-06
+Iterations: 4963
+Final L2 error: 0.275526
+Elapsed time: 0.0429326 seconds
+All Steps completed.

@@ -1,0 +1,160 @@
+Starting normal job
+Maximum number of threads: 4
+Number of threads in use: 4
+Hello from thread 0
+Hello from thread 2
+Hello from thread 3
+Hello from thread 1
+Iteration 0, L2 distance: 0.00100695, Time: 2.90871e-05 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 1.50204e-05 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 1.5974e-05 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 1.97887e-05 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 1.50204e-05 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 0.0761981 seconds
+Bandwidth: 29.1666 GB/s
+Total time in parallel region: 0.0389352 seconds
+Percentage of time in parallel: 51.0973%
+Maximum number of threads: 128
+Number of threads in use: 128
+Hello from thread 0
+Hello from thread 64
+Hello from thread 80
+Hello from thread 17
+Hello from thread 48
+Hello from thread 113
+Hello from thread 57
+Hello from thread 13
+Hello from thread 112
+Hello from thread 69
+Hello from thread 85
+Hello from thread 105
+Hello from thread 27
+Hello from thread 44
+Hello from thread 30
+Hello from thread 96
+Hello from thread 22
+Hello from thread 100
+Hello from thread 4
+Hello from thread 84
+Hello from thread 53
+Hello from thread 38
+Hello from thread 116
+Hello from thread 68
+Hello from thread 124
+Hello from thread 60
+Hello from thread 41
+Hello from thread 90
+Hello from thread 5
+Hello from thread 32
+Hello from thread 77
+Hello from thread 106
+Hello from thread 72
+Hello from thread 1
+Hello from thread 114
+Hello from thread 34
+Hello from thread 50
+Hello from thread 18
+Hello from thread 98
+Hello from thread 87
+Hello from thread 104
+Hello from thread 2
+Hello from thread 82
+Hello from thread 40
+Hello from thread 55
+Hello from thread 66
+Hello from thread 120
+Hello from thread 24
+Hello from thread 26
+Hello from thread 59
+Hello from thread 6
+Hello from thread 92
+Hello from thread 107
+Hello from thread 74
+Hello from thread 43
+Hello from thread 122
+Hello from thread 102
+Hello from thread 3
+Hello from thread 52
+Hello from thread 86
+Hello from thread 118
+Hello from thread 70
+Hello from thread 20
+Hello from thread 36
+Hello from thread 7
+Hello from thread 78
+Hello from thread 126
+Hello from thread 94
+Hello from thread 62
+Hello from thread 110
+Hello from thread 45
+Hello from thread 28
+Hello from thread 49
+Hello from thread 97
+Hello from thread 16
+Hello from thread 15
+Hello from thread 31
+Hello from thread 115
+Hello from thread 65
+Hello from thread 81
+Hello from thread 103
+Hello from thread 67
+Hello from thread 125
+Hello from thread 11
+Hello from thread 42
+Hello from thread 56
+Hello from thread 83
+Hello from thread 25
+Hello from thread 109
+Hello from thread 93
+Hello from thread 37
+Hello from thread 71
+Hello from thread 9
+Hello from thread 54
+Hello from thread 117
+Hello from thread 21
+Hello from thread 108
+Hello from thread 58
+Hello from thread 10
+Hello from thread 127
+Hello from thread 91
+Hello from thread 23
+Hello from thread 39
+Hello from thread 73
+Hello from thread 119
+Hello from thread 75
+Hello from thread 8
+Hello from thread 19
+Hello from thread 35
+Hello from thread 99
+Hello from thread 88
+Hello from thread 51
+Hello from thread 47
+Hello from thread 14
+Hello from thread 95
+Hello from thread 63
+Hello from thread 123
+Hello from thread 29
+Hello from thread 79
+Hello from thread 111
+Hello from thread 121
+Hello from thread 89
+Hello from thread 76
+Hello from thread 61
+Hello from thread 101
+Hello from thread 12
+Hello from thread 33
+Hello from thread 46
+Iteration 0, L2 distance: 0.00100695, Time: 0.000113964 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 8.70228e-05 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 8.70228e-05 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 8.4877e-05 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 8.41618e-05 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 0.438775 seconds
+Bandwidth: 5.06511 GB/s
+Total time in parallel region: 0.134048 seconds
+Percentage of time in parallel: 30.5505%
+All Steps completed.

@@ -1,0 +1,25 @@
+Rank 0 of 4
+Rank 1 of 4
+Rank 2 of 4
+Rank 3 of 4
+L2 loss at time step 0: 0.709274
+L2 loss at time step 100: 0.579358
+L2 loss at time step 200: 0.472381
+L2 loss at time step 300: 0.384286
+L2 loss at time step 400: 0.311756
+L2 loss at time step 500: 0.252062
+L2 loss at time step 600: 0.202963
+L2 loss at time step 700: 0.162617
+L2 loss at time step 800: 0.129520
+L2 loss at time step 900: 0.102446
+L2 loss at time step 1000: 0.080407
+L2 loss at time step 1100: 0.062628
+L2 loss at time step 1200: 0.048523
+L2 loss at time step 1300: 0.037697
+L2 loss at time step 1400: 0.029920
+L2 loss at time step 1500: 0.025041
+L2 loss at time step 1600: 0.022765
+Converged after 1610 time steps.
+Elapsed time: 5786 microseconds
+L2 loss: 0.022668
+All Steps completed.

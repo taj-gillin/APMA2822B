@@ -1,0 +1,10 @@
+Starting normal job
+Iteration 0, L2 distance: 0.00100695
+Iteration 1000, L2 distance: 0.000126061
+Iteration 2000, L2 distance: 3.48213e-05
+Iteration 3000, L2 distance: 9.88034e-06
+Iteration 4000, L2 distance: 2.80486e-06
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 1617753 microseconds
+All Steps completed.

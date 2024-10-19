@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#SBATCH -J launcher           # Job name
+#SBATCH -o out/job.%j.out         # Name of stdout output file (%j expands to jobId)
+#SBATCH -N 1                  # Total number of nodes requested
+#SBATCH -n 1                  # Total number of mpi tasks requested
+#SBATCH -t 00:03:00           # Run time (hh:mm:ss) - 3 minutes
+#SBATCH -p devel            # Desired partition
+
+
+
+
+# Note that the output from each step will be saved to a unique
+# file: %J maps to jobid.stepid
+
+echo "Starting normal job"
+
+/home1/bustudent24/APMA2822B/HW2/bin/hw2
+
+echo "All Steps completed."

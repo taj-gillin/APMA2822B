@@ -1,0 +1,19 @@
+Starting omp job
+Maximum number of threads: 4
+Number of threads in use: 4
+Hello from thread 0
+Hello from thread 3
+Hello from thread 2
+Hello from thread 1
+Iteration 0, L2 distance: 0.00100695, Time: 2.81334e-05 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 1.90735e-05 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 1.81198e-05 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 1.50204e-05 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 1.4782e-05 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 0.0811062 seconds
+Bandwidth: 27.4016 GB/s
+Total time in parallel region: 0.0423119 seconds
+Percentage of time in parallel: 52.1685%
+All Steps completed.

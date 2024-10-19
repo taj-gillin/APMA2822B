@@ -1,0 +1,10 @@
+Rank 3 of 4
+Rank 0 of 4
+Rank 2 of 4
+Rank 1 of 4
+L2 loss at time step 0: 0.709274
+L2 loss at time step 100: 0.579358
+Converged after 186 time steps.
+Elapsed time: 1830 microseconds
+L2 loss: 0.487134
+All Steps completed.

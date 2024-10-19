@@ -1,0 +1,46 @@
+APMA 2822B: Home Assignment No 2
+Due by October 18, 2024.
+The goals of this assignment are:
+1. Practicing writing a [simple] code, compiling it and executing on a parallel computer.
+2. Estimating the bounds on a theoretically achievable performance using the Roof Line
+model.
+3. Practicing using shared memory model and OpenMP directives and distributed memory model and
+MPI.
+Assignment:
+Extend the code we developed in the 3rd week of the course from solving a 1D differential
+equation to solving a 2D equation.
+Computational domain is defined on a square with x-coordinates in the range of [0 1] and with
+y-coordinates also in the range of [0 1].
+Consider the second order differential equation
+∂²u/∂x² + ∂²u/∂y² = f(x,y);
+Here ∂²u/∂x² and ∂²u/∂y² are approximated by the 2nd order finite difference scheme
+∂²u/∂x² = (u[i-1,j]-2*u[i,j]+u[i+1,j] ) / ( Dx*Dx)
+∂²u/∂y² = (u[i,j-1]-2*u[i,j]+u[i,j+1] ) / ( Dy*Dy)
+This is similar to what we did in the class, but now u is a 2D field.
+Assume that the exact solution is sin(2pix)* cos(2piy) and accordingly f(x,y) = - 2*(2pi)*(2pi) * sin(2pix)* cos(2piy).
+Solution at the boundary U(boundary)=0.0.
+Task No 1. Write an iterative solver to find the value of u(x,y) using the shared memory model
+and OpenMP directives. Measure the time for each iteration and number of iterations required
+to converge with some level of accuracy. Measure the bandwidth achieved and create a roof-
+line model for iterations over u, and similarly for loops required to compute the convergence
+error.
+Task No 2. Write an iterative solver to find the value of u(x,y) using the distributed memory
+model and MPI. Make sure that results are correct. Use non-blocking MPI_Isend and MPI_Irecv
+to exchange data between the processes. Use MPI_Allreduce when computing the convergence
+error. Measure the number of iterations needed to converge.
+Compare the time to solution required in Task No 1 and Task No 2.
+You can use the gettimeofday function as a timer.
+A simple example of measuring elapsed time in a C++ code using the gettimeofday function can
+be found in: https://people.cs.rutgers.edu/~pxk/416/notes/c-tutorials/@mes.html , scroll to
+the end of that document.
+You can also use omp_get_wtime() function and MPI_Get_wtime() or any other timer.
+Plan your solver carefully, think about strategies for testing individual components of the
+program.
+
+
+So, update formula is:
+\[
+u_{\text{new}}[i, j] = \frac{1}{2 \left( \frac{1}{\Delta x^2} + \frac{1}{\Delta y^2} \right)} 
+\left( \frac{u[i-1, j] + u[i+1, j]}{\Delta x^2} + \frac{u[i, j-1] + u[i, j+1]}{\Delta y^2} - f(x_i, y_j) \right).
+\]
+

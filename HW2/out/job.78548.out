@@ -1,0 +1,20 @@
+Starting normal job
+Iteration 0, L2 distance: 0.00100695, Time: 3.00407e-05 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 2.19345e-05 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 1.5974e-05 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 1.50204e-05 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 1.5974e-05 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 0.082092 seconds
+Bandwidth: 27.0726 GB/s
+Iteration 0, L2 distance: 0.00100695, Time: 0.000155926 seconds
+Iteration 1000, L2 distance: 0.000126061, Time: 8.79765e-05 seconds
+Iteration 2000, L2 distance: 3.48213e-05, Time: 8.98838e-05 seconds
+Iteration 3000, L2 distance: 9.88034e-06, Time: 9.39369e-05 seconds
+Iteration 4000, L2 distance: 2.80486e-06, Time: 8.79765e-05 seconds
+Iterations: 4821
+Final L2 error: 0.278547
+Elapsed time: 0.484438 seconds
+Bandwidth: 4.58767 GB/s
+All Steps completed.
