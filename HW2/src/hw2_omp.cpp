@@ -91,6 +91,7 @@ int main() {
 
     double start_time = get_time();
     double parallel_time = 0.0;
+    double convergence_time = 0.0;
 
     int iteration = 0;
     double l2_diff;
@@ -113,7 +114,10 @@ int main() {
         parallel_time += loop_end_time - loop_start_time;
 
         // Calculate L2 distance between current and new solution
+        double convergence_start_time = get_time();
         l2_diff = calculate_l2_distance(u, u_new);
+        double convergence_end_time = get_time();
+        convergence_time += convergence_end_time - convergence_start_time;
 
         // Update u for the next iteration
         #pragma omp parallel for collapse(2)
@@ -141,15 +145,21 @@ int main() {
     double final_error = calculate_l2_error(u);
 
     // Calculate bandwidth for main computation loop
-    double total_memory_accessed = iteration * (N - 2) * (N - 2) * 6 * sizeof(double);  // 5 reads, 1 write per point
-    double bandwidth = total_memory_accessed / (end_time - start_time) / 1e9;  // GB/s
+    double total_memory_accessed_main = iteration * (N - 2) * (N - 2) * 6 * sizeof(double);  // 5 reads, 1 write per point
+    double bandwidth_main = total_memory_accessed_main / parallel_time / 1e9;  // GB/s
+
+    // Calculate bandwidth for convergence error calculation
+    double total_memory_accessed_convergence = iteration * (N - 2) * (N - 2) * 2 * sizeof(double);  // 2 reads per point
+    double bandwidth_convergence = total_memory_accessed_convergence / convergence_time / 1e9;  // GB/s
 
     // Output results
     std::cout << "Iterations: " << iteration << std::endl;
     std::cout << "Final L2 error: " << final_error << std::endl;
     std::cout << "Elapsed time: " << (end_time - start_time) << " seconds" << std::endl;
-    std::cout << "Bandwidth: " << bandwidth << " GB/s" << std::endl;
+    std::cout << "Main loop bandwidth: " << bandwidth_main << " GB/s" << std::endl;
+    std::cout << "Convergence loop bandwidth: " << bandwidth_convergence << " GB/s" << std::endl;
     std::cout << "Total time in parallel region: " << parallel_time << " seconds" << std::endl;
+    std::cout << "Total time in convergence calculation: " << convergence_time << " seconds" << std::endl;
     std::cout << "Percentage of time in parallel: " << (parallel_time / (end_time - start_time)) * 100 << "%" << std::endl;
 
     return 0;
