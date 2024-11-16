@@ -1,0 +1,4 @@
+Starting vm mul job
+Memory access fault by GPU node-2 (Agent handle: 0xfe5cc0) on address 0x4dd1000. Reason: Unknown.
+srun: error: t004-004: task 0: Aborted (core dumped)
+All Steps completed.

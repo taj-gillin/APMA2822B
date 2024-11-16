@@ -1,0 +1,23 @@
+Starting GPU MPI job
+Number of available GPUs: 4
+Rank 0 using GPU 0 (local rank 0)
+Rank 1 using GPU 1 (local rank 1)
+Rank 2 using GPU 2 (local rank 2)
+Rank 3 using GPU 3 (local rank 3)
+
+Results:
+Initial memory transfer time: nan seconds
+Total iterations: 4453
+Final L2 difference: 9.99435e-07
+Total time: 0.48877 seconds
+Compute time: 0 seconds
+Aggregate Memory bandwidth: inf GB/s
+
+Detailed Performance Breakdown:
+GPU Computation: 0.0626 seconds
+MPI Communication: 0.0138 seconds
+Memory Transfers: 0.1496 seconds
+Convergence Checks: 0.2081 seconds
+Iterations: 4453
+Time per iteration: 0.000097 seconds
+All Steps completed.

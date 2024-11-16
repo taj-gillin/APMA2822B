@@ -1,0 +1,13 @@
+Starting vm mul job
+4 GPUs have been detected
+
+Timing Results:
+Memory Transfer Time (H2D + D2H): 0.274216 seconds
+Computation Time (including D2H transfer): 0.001001 seconds
+Total Time: 0.275218 seconds
+
+First element of result: 49995000.000000
+Last element of result: 149985000.000000
+Verification PASSED
+Maximum difference: 0.000000e+00
+All Steps completed.

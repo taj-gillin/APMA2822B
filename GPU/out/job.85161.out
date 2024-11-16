@@ -1,0 +1,13 @@
+Starting vm memstream job
+4 GPUs have been detected
+Processing chunk 0
+Processing chunk 1
+Processing chunk 2
+Processing chunk 3
+
+Total execution time: 0.002426 seconds
+First element of result: 499500.000000
+Last element of result: 1498500.000000
+Verification PASSED
+Maximum difference: 0.000000e+00
+All Steps completed.

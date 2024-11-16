@@ -1,0 +1,4 @@
+Starting Dot job
+4 GPUs have been detected
+ computed dot product result = 49.95 expected result = 49.95, relative error = 0.000000e+00
+All Steps completed.

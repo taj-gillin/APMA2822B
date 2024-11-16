@@ -1,0 +1,10 @@
+Starting GPU MPI job
+
+Results:
+Initial memory transfer time: nan seconds
+Total iterations: 36181
+Final L2 difference: 9.99904e-07
+Total time: 3.90506 seconds
+Compute time: 0.559917 seconds
+Aggregate Memory bandwidth: 1.44551e+11 GB/s
+All Steps completed.

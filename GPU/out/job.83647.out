@@ -1,0 +1,8 @@
+Starting Dot job
+4 GPUs have been detected
+First element of result: 32640.000000
+Last element of result: 288384.000000
+Mismatch at position 0: GPU=32640.000000, CPU=499500.000000
+Verification FAILED
+Maximum difference: 4.668600e+05
+All Steps completed.

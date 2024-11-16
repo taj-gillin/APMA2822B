@@ -1,0 +1,31 @@
+Starting GPU job
+Iteration 0, L2 distance: 0.0178487, Time: 0.000357866 seconds
+Iteration 1000, L2 distance: 0.000153858, Time: 2.00272e-05 seconds
+Iteration 2000, L2 distance: 7.14655e-05, Time: 2.00272e-05 seconds
+Iteration 3000, L2 distance: 3.78253e-05, Time: 1.97887e-05 seconds
+Iteration 4000, L2 distance: 2.26555e-05, Time: 2.00272e-05 seconds
+Iteration 5000, L2 distance: 1.50045e-05, Time: 2.09808e-05 seconds
+Iteration 6000, L2 distance: 1.05272e-05, Time: 2.09808e-05 seconds
+Iteration 7000, L2 distance: 7.58087e-06, Time: 2.09808e-05 seconds
+Iteration 8000, L2 distance: 5.51646e-06, Time: 2.09808e-05 seconds
+Iteration 9000, L2 distance: 4.03022e-06, Time: 2.09808e-05 seconds
+Iteration 10000, L2 distance: 2.94878e-06, Time: 2.09808e-05 seconds
+Iteration 11000, L2 distance: 2.15871e-06, Time: 2.09808e-05 seconds
+Iteration 12000, L2 distance: 1.58064e-06, Time: 2.09808e-05 seconds
+Iteration 13000, L2 distance: 1.15746e-06, Time: 2.19345e-05 seconds
+
+Results:
+Initial memory transfer time: 0.238489 seconds
+Total iterations: 13471
+Final L2 error: 0.0031801
+Total time: 1.34824 seconds
+Compute time: 0 seconds
+Memory bandwidth: inf GB/s
+
+Detailed Performance Metrics:
+Main Loop Arithmetic Intensity: 0.857587 FLOPS/byte
+Main Loop Bandwidth: 15.3492 GB/s
+Convergence Loop Arithmetic Intensity: 0.122512 FLOPS/byte
+Convergence Loop Bandwidth: 6.76739 GB/s
+Total Communication Time: 0.636984 seconds
+All Steps completed.
